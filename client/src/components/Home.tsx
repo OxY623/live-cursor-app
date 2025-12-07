@@ -6,7 +6,7 @@ type Props = {
   component: JSX.Element | null;
 };
 
-function Home({ username, status, component, flag }: Props) {
+function Home({ username, status, component }: Props) {
   return (
     <div>
       <h1>Hello {username.toUpperCase()}</h1>
